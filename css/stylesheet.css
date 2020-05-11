@@ -10,6 +10,14 @@
     width: 100%;
 }
 
+br {
+    color: black;
+}
+
+.navbar-nav>li {
+    border-bottom: 1px solid #000;
+}
+
 body {
     background-color: #edae01;
     width: 100%;
