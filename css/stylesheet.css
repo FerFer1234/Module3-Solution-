@@ -1,77 +1,56 @@
-* {
+    * {
     box-sizing: content-box;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-
-.navbar {
-    background-color: #e94f08;
-    width: 100%;
-}
-
-br {
-    color: black;
-}
-
-.navbar-nav>li {
-    border-bottom: 1px solid #000;
-}
-
-body {
-    background-color: #edae01;
-    width: 100%;
-    margin: 0;
-    font-family: 'Oxygen', sans-serif;
-}
-
-h1 {
-    color: #7f152e;
-    padding: 15px;
-}
-
-div#main-content {
-    width: auto;
-    position: absolute;
-    padding: 15px;
-    margin: 15px;
-}
-
-.box {
-    padding: 15px;
-    margin: 1.5px;
-    border-radius: 10%;
-    background-color: rgba(202, 54, 35, 0.767);
-    border: 5px solid #D61800;
-}
-
-
-/********** Large devices only **********/
-
-@media (min-width: 1200px) {
-    .navbar-nav {
-        visibility: hidden;
+    br {
+        color: black;
     }
-}
-
-
-/********** Medium devices only **********/
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .navbar-nav {
-        visibility: hidden;
+    .navbar-nav>li {
+        border-bottom: 1px solid #000;
     }
-}
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-
-@media (max-width: 479px) {
-    /* Home page */
+    body {
+        background-color: #edae01;
+        width: 100%;
+        margin: 0;
+        font-family: 'Oxygen', sans-serif;
+    }
+    h1 {
+        color: #7f152e;
+        padding: 15px;
+    }
     div#main-content {
         width: auto;
         position: absolute;
         padding: 15px;
+        margin: 15px;
     }
-    /* End Home Page */
-}
+    .box {
+        padding: 15px;
+        margin: 1.5px;
+        border-radius: 10%;
+        background-color: rgba(202, 54, 35, 0.767);
+        border: 5px solid #D61800;
+    }
+    /********** Large devices only **********/
+    @media (min-width: 1200px) {
+        .navbar-nav {
+            visibility: hidden;
+        }
+    }
+    /********** Medium devices only **********/
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .navbar-nav {
+            visibility: hidden;
+        }
+    }
+    /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+    @media (max-width: 479px) {
+        /* Home page */
+        div#main-content {
+            width: auto;
+            position: absolute;
+            padding: 15px;
+        }
+        /* End Home Page */
+    }
