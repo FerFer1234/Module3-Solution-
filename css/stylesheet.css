@@ -7,6 +7,7 @@
 
 .navbar {
     background-color: #e94f08;
+    width: 100%;
 }
 
 body {
@@ -21,17 +22,11 @@ h1 {
     padding: 15px;
 }
 
-#main-content {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0;
-    position: relative;
-    height: auto;
-    width: 68em;
-    margin: 0 auto;
-    padding: 0;
+div#main-content {
+    width: auto;
+    position: absolute;
+    padding: 15px;
+    margin: 15px;
 }
 
 .box {
@@ -64,19 +59,11 @@ h1 {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 
 @media (max-width: 479px) {
-    /* Header */
-    .navbar-brand h1 {
-        padding-top: 5px;
-        font-size: 6vw;
-    }
-    /* End Header */
     /* Home page */
-    .col-xxs-12 {
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-        float: left;
-        width: 100%;
+    div#main-content {
+        width: auto;
+        position: absolute;
+        padding: 15px;
     }
+    /* End Home Page */
 }
